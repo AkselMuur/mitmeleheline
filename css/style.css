@@ -16,7 +16,8 @@ a {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   padding-bottom: 20px;
 }
 
@@ -111,9 +112,23 @@ h2 {
   color: #fff;
 }
 
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+
+
+/*Ruumi jäi ekraanil väheks. Pidin laiuseid info-contentil ja 
+info-img vähendama. Siis sain nad ühele reale. Äkki oleneb
+ekraani resolutsioonist? Browseri zoom-ituse tasemest? */
 #info .info-content {
   float: right;
-  width: 50%;
+  width: 47%;
   height: 100%;
   text-align: center;
   padding: 50px 30px;
@@ -131,7 +146,46 @@ h2 {
 
 #info .info-img {
   float: left;
-  width: 50%;
+  width: 48%;
   background: url("../img/photo-1.jpg") no-repeat;
   min-height: 100%;
+}
+
+
+#features .box{
+  float: left;
+  width: 29%;
+  padding: 50px;
+  text-align: center;
+
+}
+
+#features .box i {
+  margin-bottom: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+.py-30 {
+  padding: 30px 0;
 }
