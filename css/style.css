@@ -1,4 +1,4 @@
-* / {
+*  {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -123,12 +123,10 @@ h3 {
 }
 
 
-/*Ruumi jäi ekraanil väheks. Pidin laiuseid info-contentil ja 
-info-img vähendama. Siis sain nad ühele reale. Äkki oleneb
-ekraani resolutsioonist? Browseri zoom-ituse tasemest? */
+
 #info .info-content {
   float: right;
-  width: 47%;
+  width: 50%;
   height: 100%;
   text-align: center;
   padding: 50px 30px;
@@ -146,7 +144,7 @@ ekraani resolutsioonist? Browseri zoom-ituse tasemest? */
 
 #info .info-img {
   float: left;
-  width: 48%;
+  width: 50%;
   background: url("../img/photo-1.jpg") no-repeat;
   min-height: 100%;
 }
@@ -154,7 +152,7 @@ ekraani resolutsioonist? Browseri zoom-ituse tasemest? */
 
 #features .box{
   float: left;
-  width: 29%;
+  width: 33.3%;
   padding: 50px;
   text-align: center;
 
@@ -163,6 +161,16 @@ ekraani resolutsioonist? Browseri zoom-ituse tasemest? */
 #features .box i {
   margin-bottom: 10px;
 }
+
+footer {
+
+  text-align: center;
+  padding: 20px;
+  background: #444;
+  color: #fff;
+
+}
+
 
 .clear {
   clear: both;
@@ -188,4 +196,70 @@ ekraani resolutsioonist? Browseri zoom-ituse tasemest? */
 
 .py-30 {
   padding: 30px 0;
+}
+
+
+#testimonials {
+  height: 600px;
+  background: url("../img/test-bg.jpg") no-repeat center center/cover;
+}
+
+#testimonials h2{
+  color: #fff;
+  text-align: center;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 70px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px
+}
+
+#contact-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea
+{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-form .form-group textarea
+{
+  height: 200px;
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus
+{
+  outline: none;
+border-color: #f7c08a;
+}
+
+#contact-info .box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  
+}
+
+#contact-info .box i {
+ margin-bottom: 10px;
 }
